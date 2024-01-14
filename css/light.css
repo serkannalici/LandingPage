@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s all ease-in-out;
+}
+/* Main */
+
+body .light-mode-body {
+    background-color: #fff;
+    color: #000;
+    transition: background 0.3s ease-in, color 0.3s ease-in;
+}
+.main-container.light-mode-container{
+    background: #DCDFE4;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    transition: background 0.5s ease-in-out, border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* ? Active */
+.nav-bar .active.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.nav-bar .active.light-mode-navbar-button i{
+    color: #000;
+}
+/* ? Projects */
+.nav-bar .projects-btn.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.nav-bar .projects-btn.light-mode-navbar-button i{
+    color: #000;
+}
+/* ? About */
+.nav-bar .about-btn.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.nav-bar .about-btn.light-mode-navbar-button i{
+    color: #000;
+}
+/* ? Theme */
+.nav-bar .theme-btn.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.nav-bar .theme-btn.light-mode-navbar-button i{
+    color: #000;
+}
+/* ? Snow Btn */
+.nav-bar .snow-btn.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.nav-bar .snow-btn.light-mode-navbar-button i{
+    color: #000;
+}
+/* ? Social Btn */
+.up-info .social-text .social-btn.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.up-info .social-text .social-btn.light-mode-navbar-button i{
+    color: #000;
+}
+.up-info .social-text .social-btn2.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.up-info .social-text .social-btn2.light-mode-navbar-button i{
+    color: #000;
+}
+.up-info .social-text .social-btn3.light-mode-navbar-button{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+.up-info .social-text .social-btn3.light-mode-navbar-button i{
+    color: #000;
+}
+.nav-bar .active.light-mode-navbar-button:hover,
+.nav-bar .projects-btn.light-mode-navbar-button:hover,
+.nav-bar .about-btn.light-mode-navbar-button:hover,
+.nav-bar .theme-btn.light-mode-navbar-button:hover,
+.nav-bar .snow-btn.light-mode-navbar-button:hover{
+    background: #f3f3f3;
+    border: 1px solid #ccc;
+}
+/* !! Nav-Bar END */
+
+.up-info.light-mode-up-info {
+    color: #000;
+}
+
+.up-info.light-mode-up-info img {
+    border: 1px solid rgb(172, 172, 172);
+    box-shadow: none;
+}
+
+.up-info.light-mode-up-info .up-text span,
+.up-info.light-mode-up-info .social-text p,
+.up-info.light-mode-up-info .typed-text {
+    color: #000;
+}
+
+/* !! DOWN-Info */
+
+.down-info.light-mode-down-info .down-up {
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.down-info.light-mode-down-info .down-up .left-side span,
+.down-info.light-mode-down-info .down-up .right-side span,
+.down-info.light-mode-down-info .down-up .right-side i {
+    color: #000;
+}
+
+.down-info.light-mode-down-info .down-down {
+    border: 1px solid #acacac;
+    border-top: 0px;
+}
+
+.down-info.light-mode-down-info .down-down .down-down-text h1 {
+    color: #000;
+}
+
+.down-info.light-mode-down-info .down-down .down-down-text .down-buttons a {
+    color: #000;
+    background-color: #f3f3f3;
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.down-info.light-mode-down-info .down-down .down-down-text .update-date {
+    color: #000;
+}
+
+/* !! Projects */
+.projects.light-mode-projects {
+    background-color: #fff;
+}
+
+.projects.light-mode-projects .cards .card {
+    background: #DCDFE4;
+    border: 1px solid #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projects.light-mode-projects .cards .card .card-title,
+.projects.light-mode-projects .cards .card .card-text p {
+    color: #000;
+}
+
+.projects.light-mode-projects .cards .card .card-button a {
+    border: 1px solid #acacac;
+    background-color: #faf9f9;
+    color: #000;
+}
+/* TODO ################################################### */
+/* TODO - - - - - - - - - - - - -  - - - - --  Snow Theme */
+/* TODO ################################################### */
